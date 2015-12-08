@@ -16,7 +16,7 @@ public class loginAction extends ActionSupport {
 	public static void main(String[] args) {
 		loginAction login = new loginAction();
 
-		logger.info(" this is message ! ");
+		logger.info(" this is message ! Welcome for git in oschina ! ");
 	}
 
 	public String execute() {
