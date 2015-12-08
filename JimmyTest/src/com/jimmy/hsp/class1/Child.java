@@ -14,6 +14,6 @@ public class Child {
 	public Child(int no) {
 		// 给一个编号
 		this.no = no;
-		System.out.println("现在创建的是第:" + no + "对象!");
+		System.out.println("现在创建的是第:" + no + "对象 !");
 	}
 }
