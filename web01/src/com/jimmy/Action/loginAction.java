@@ -16,7 +16,7 @@ public class loginAction extends ActionSupport {
 	public static void main(String[] args) {
 		loginAction login = new loginAction();
 
-		logger.info("message");
+		logger.info(" this is message ");
 	}
 
 	public String execute() {
