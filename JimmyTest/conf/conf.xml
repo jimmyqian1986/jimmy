@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<configuration>
+<logDB>
+<MYSQL>
+<USERNAME>test</USERNAME>
+<PASSWORD>111111</PASSWORD>
+<URL>jdbc:mysql://192.168.1.20:3306/test</URL>
+</MYSQL>
+<ORACLE><USERNAME>test</USERNAME>
+<PASSWORD>111111</PASSWORD>
+<URL>jdbc:oracle:thin:@192.168.1.20:1521:orcl</URL>
+</ORACLE></logDB>
+</configuration> 
