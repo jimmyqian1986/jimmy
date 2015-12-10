@@ -24,7 +24,7 @@ public class Demo4 {
 		sbf = dm4.xz(ar);
 		System.out.println(sbf.toString() + ar[ar.length - 1]);
 		// System.out.println(sbf.length());
-
+		dm4.sort(0, ar.length - 1, ar);
 	}
 
 	public StringBuffer mo(int ar[]) {
@@ -72,4 +72,36 @@ public class Demo4 {
 
 		return sbf;
 	}
+
+	public void sort(int left, int right, int[] arr) {
+		int l = left;
+		int r = right;
+		int pivot = arr[(left + right) / 2];// ’“÷–º‰÷µ
+		int temp = 0;
+		while (l < r) {
+			while (arr[l] < pivot)
+				l++;
+			while (arr[r] > pivot)
+				r--;
+			if (l >= r)
+				break;
+			temp = arr[l];
+			arr[l] = arr[r];
+			arr[r] = temp;
+			if (arr[l] == pivot)
+				--r;
+			if (arr[r] == pivot)
+				++l;
+		}
+		if (l == r) {
+			l++;
+			r--;
+		}
+		if (left < r)
+			sort(left, r, arr);
+		if (right > l)
+			sort(l, right, arr);
+		System.out.println(arr[arr.length - 1]);
+	}
+
 }
