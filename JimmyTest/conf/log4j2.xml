@@ -13,7 +13,7 @@
       <PatternLayout pattern="%d{yyyy.MM.dd 'at' HH:mm:ss z} %-5level %class{36} %L %M - %msg%xEx%n"/>    
       <SizeBasedTriggeringPolicy size="10 MB" />    
     </RollingFile>  
-    <JDBC name="MysqlAppender" tableName="APPLICATION_LOG">
+    <JDBC name="MysqlAppender" tableName="application_log">
       <ConnectionFactory class="jimmy.commons.ConnectionFactory" method="getMysqlConnection" />
       <Column name="EVENT_ID" literal="nextval('logid')" />
       <Column name="EVENT_DATE" isEventTimestamp="true" />
