@@ -1,0 +1,34 @@
+17:19:38.647 INFO  com.jimmy.hsp.class1.Demo8 66 linkListGetEmp - name4 33.333332
+17:19:38.738 INFO  com.jimmy.hsp.class1.Demo8 66 linkListGetEmp - name3 25.0
+17:19:38.773 INFO  com.jimmy.hsp.class1.Demo8 66 linkListGetEmp - name2 16.666666
+17:19:38.817 INFO  com.jimmy.hsp.class1.Demo8 66 linkListGetEmp - name1 8.333333
+17:19:38.870 INFO  com.jimmy.hsp.class1.Demo8 66 linkListGetEmp - name0 0.0
+17:19:38.909 INFO  com.jimmy.hsp.class1.Demo8 45 main - ======LINKEDLIST========
+17:19:38.964 INFO  com.jimmy.hsp.class1.Demo8 87 vectorGetEmp - name0 0.0
+17:19:38.992 INFO  com.jimmy.hsp.class1.Demo8 87 vectorGetEmp - name1 8.333333
+17:19:39.023 INFO  com.jimmy.hsp.class1.Demo8 87 vectorGetEmp - name2 16.666666
+17:19:39.055 INFO  com.jimmy.hsp.class1.Demo8 87 vectorGetEmp - name3 25.0
+17:19:39.082 INFO  com.jimmy.hsp.class1.Demo8 87 vectorGetEmp - name4 33.333332
+17:19:39.117 INFO  com.jimmy.hsp.class1.Demo8 47 main - ---------VECTOR---------
+17:19:39.146 INFO  com.jimmy.hsp.class1.Demo8 109 hashMapGetEmp - name1 8.333333
+17:19:39.171 INFO  com.jimmy.hsp.class1.Demo8 109 hashMapGetEmp - name2 16.666666
+17:19:39.197 INFO  com.jimmy.hsp.class1.Demo8 109 hashMapGetEmp - name3 25.0
+17:19:39.225 INFO  com.jimmy.hsp.class1.Demo8 109 hashMapGetEmp - name4 33.333332
+17:19:39.256 INFO  com.jimmy.hsp.class1.Demo8 49 main - =======HASHMAP======
+17:19:39.284 INFO  com.jimmy.hsp.class1.Demo8 132 hashTableGetEmp - name4 33.333332
+17:19:39.309 INFO  com.jimmy.hsp.class1.Demo8 132 hashTableGetEmp - name3 25.0
+17:19:39.328 INFO  com.jimmy.hsp.class1.Demo8 132 hashTableGetEmp - name2 16.666666
+17:19:39.349 INFO  com.jimmy.hsp.class1.Demo8 132 hashTableGetEmp - name1 8.333333
+17:19:39.379 INFO  com.jimmy.hsp.class1.Demo8 132 hashTableGetEmp - name0 0.0
+17:19:39.402 INFO  com.jimmy.hsp.class1.Demo8 51 main - =======HASHTABLE====
+17:19:39.425 INFO  com.jimmy.hsp.class1.Demo8 152 hashSetGetEmp - name0 0.0
+17:19:39.454 INFO  com.jimmy.hsp.class1.Demo8 152 hashSetGetEmp - name1 8.333333
+17:19:39.480 INFO  com.jimmy.hsp.class1.Demo8 152 hashSetGetEmp - name2 16.666666
+17:19:39.551 INFO  com.jimmy.hsp.class1.Demo8 152 hashSetGetEmp - name3 25.0
+17:19:39.702 INFO  com.jimmy.hsp.class1.Demo8 152 hashSetGetEmp - name4 33.333332
+17:19:39.730 INFO  com.jimmy.hsp.class1.Demo8 53 main - =======HASHSET======
+17:19:39.757 INFO  com.jimmy.hsp.class1.Demo8 173 iteratorGetLinkedList - use Iterator to get :name4 33.333332
+17:19:39.773 INFO  com.jimmy.hsp.class1.Demo8 173 iteratorGetLinkedList - use Iterator to get :name3 25.0
+17:19:39.790 INFO  com.jimmy.hsp.class1.Demo8 173 iteratorGetLinkedList - use Iterator to get :name2 16.666666
+17:19:39.815 INFO  com.jimmy.hsp.class1.Demo8 173 iteratorGetLinkedList - use Iterator to get :name1 8.333333
+17:19:39.830 INFO  com.jimmy.hsp.class1.Demo8 173 iteratorGetLinkedList - use Iterator to get :name0 0.0
