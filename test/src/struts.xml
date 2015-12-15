@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+<constant name="struts.objectFactory" value="spring" />
+<package name="test" extends="struts-default">
+	
+	<action name="userList" class="cn.wiztek.action.ListUserAction">
+		<result name="success">/list.jsp</result>
+	</action>
+	<action name="userSave" class="cn.wiztek.action.SaveUserAction">
+		<result name="success" type="redirect">userList.action</result>
+	</action>
+	<action name="userUpdate" class="cn.wiztek.action.UpdateUserAction">
+		<result name="success" type="redirect">userList.action</result>
+	</action>
+	<action name="userDelete" class="cn.wiztek.action.DeleteUserAction">
+		<result name="success" type="redirect">userList.action</result>
+	</action>
+	<action name="userGet" class="cn.wiztek.action.GetUserAction">
+		<result name="success">/update.jsp</result>
+	</action>
+</package>
+</struts>

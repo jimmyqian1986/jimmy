@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="configLocation" value="classpath:hibernate.cfg.xml">
+		</property>
+	</bean>
+	
+	<bean id="user" class="cn.wiztek.pojo.User"></bean>
+	<bean id="userDao" class="cn.wiztek.dao.UserDao">
+		<property name="sessionFactory">
+			<ref local="sessionFactory"></ref>
+		</property>
+	</bean>
+	
+	<bean id="userService" class="cn.wiztek.service.UserService">
+		<property name="userDao">
+			<ref local="userDao"></ref>
+		</property>
+	</bean>
+	
+	<bean name="listUserAction" class="cn.wiztek.action.ListUserAction">
+		<property name="user">
+			<ref local="user"></ref>
+		</property>
+		<property name="userService">
+			<ref local="userService"></ref>
+		</property>
+	</bean>
+	
+	<bean name="saveUserAction" class="cn.wiztek.action.SaveUserAction">
+		<property name="user">
+			<ref local="user"></ref>
+		</property>
+		<property name="userService">
+			<ref local="userService"></ref>
+		</property>
+	</bean>
+	
+	<bean name="updateUserAction" class="cn.wiztek.action.UpdateUserAction">
+		<property name="user">
+			<ref local="user"></ref>
+		</property>
+		<property name="userService">
+			<ref local="userService"></ref>
+		</property>
+	</bean>
+	
+	<bean name="getUserAction" class="cn.wiztek.action.GetUserAction">
+		<property name="user">
+			<ref local="user"></ref>
+		</property>
+		<property name="userService">
+			<ref local="userService"></ref>
+		</property>
+	</bean>
+	
+	<bean name="deleteUserAction" class="cn.wiztek.action.DeleteUserAction">
+		<property name="user">
+			<ref local="user"></ref>
+		</property>
+		<property name="userService">
+			<ref local="userService"></ref>
+		</property>
+	</bean>
+	
+</beans>
