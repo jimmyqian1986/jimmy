@@ -1,34 +1,43 @@
-17:19:38.647 INFO  com.jimmy.hsp.class1.Demo8 66 linkListGetEmp - name4 33.333332
-17:19:38.738 INFO  com.jimmy.hsp.class1.Demo8 66 linkListGetEmp - name3 25.0
-17:19:38.773 INFO  com.jimmy.hsp.class1.Demo8 66 linkListGetEmp - name2 16.666666
-17:19:38.817 INFO  com.jimmy.hsp.class1.Demo8 66 linkListGetEmp - name1 8.333333
-17:19:38.870 INFO  com.jimmy.hsp.class1.Demo8 66 linkListGetEmp - name0 0.0
-17:19:38.909 INFO  com.jimmy.hsp.class1.Demo8 45 main - ======LINKEDLIST========
-17:19:38.964 INFO  com.jimmy.hsp.class1.Demo8 87 vectorGetEmp - name0 0.0
-17:19:38.992 INFO  com.jimmy.hsp.class1.Demo8 87 vectorGetEmp - name1 8.333333
-17:19:39.023 INFO  com.jimmy.hsp.class1.Demo8 87 vectorGetEmp - name2 16.666666
-17:19:39.055 INFO  com.jimmy.hsp.class1.Demo8 87 vectorGetEmp - name3 25.0
-17:19:39.082 INFO  com.jimmy.hsp.class1.Demo8 87 vectorGetEmp - name4 33.333332
-17:19:39.117 INFO  com.jimmy.hsp.class1.Demo8 47 main - ---------VECTOR---------
-17:19:39.146 INFO  com.jimmy.hsp.class1.Demo8 109 hashMapGetEmp - name1 8.333333
-17:19:39.171 INFO  com.jimmy.hsp.class1.Demo8 109 hashMapGetEmp - name2 16.666666
-17:19:39.197 INFO  com.jimmy.hsp.class1.Demo8 109 hashMapGetEmp - name3 25.0
-17:19:39.225 INFO  com.jimmy.hsp.class1.Demo8 109 hashMapGetEmp - name4 33.333332
-17:19:39.256 INFO  com.jimmy.hsp.class1.Demo8 49 main - =======HASHMAP======
-17:19:39.284 INFO  com.jimmy.hsp.class1.Demo8 132 hashTableGetEmp - name4 33.333332
-17:19:39.309 INFO  com.jimmy.hsp.class1.Demo8 132 hashTableGetEmp - name3 25.0
-17:19:39.328 INFO  com.jimmy.hsp.class1.Demo8 132 hashTableGetEmp - name2 16.666666
-17:19:39.349 INFO  com.jimmy.hsp.class1.Demo8 132 hashTableGetEmp - name1 8.333333
-17:19:39.379 INFO  com.jimmy.hsp.class1.Demo8 132 hashTableGetEmp - name0 0.0
-17:19:39.402 INFO  com.jimmy.hsp.class1.Demo8 51 main - =======HASHTABLE====
-17:19:39.425 INFO  com.jimmy.hsp.class1.Demo8 152 hashSetGetEmp - name0 0.0
-17:19:39.454 INFO  com.jimmy.hsp.class1.Demo8 152 hashSetGetEmp - name1 8.333333
-17:19:39.480 INFO  com.jimmy.hsp.class1.Demo8 152 hashSetGetEmp - name2 16.666666
-17:19:39.551 INFO  com.jimmy.hsp.class1.Demo8 152 hashSetGetEmp - name3 25.0
-17:19:39.702 INFO  com.jimmy.hsp.class1.Demo8 152 hashSetGetEmp - name4 33.333332
-17:19:39.730 INFO  com.jimmy.hsp.class1.Demo8 53 main - =======HASHSET======
-17:19:39.757 INFO  com.jimmy.hsp.class1.Demo8 173 iteratorGetLinkedList - use Iterator to get :name4 33.333332
-17:19:39.773 INFO  com.jimmy.hsp.class1.Demo8 173 iteratorGetLinkedList - use Iterator to get :name3 25.0
-17:19:39.790 INFO  com.jimmy.hsp.class1.Demo8 173 iteratorGetLinkedList - use Iterator to get :name2 16.666666
-17:19:39.815 INFO  com.jimmy.hsp.class1.Demo8 173 iteratorGetLinkedList - use Iterator to get :name1 8.333333
-17:19:39.830 INFO  com.jimmy.hsp.class1.Demo8 173 iteratorGetLinkedList - use Iterator to get :name0 0.0
+10:35:11.039 INFO  com.jimmy.hsp.class2.Judge 28 main - 跳水评分系统
+10:35:11.120 INFO  com.jimmy.hsp.class2.Judge 29 main - 1、裁判打分
+10:35:11.149 INFO  com.jimmy.hsp.class2.Judge 30 main - 2、查看得分
+10:35:11.196 INFO  com.jimmy.hsp.class2.Judge 31 main - 3、查看最高分与最低分
+10:35:11.248 INFO  com.jimmy.hsp.class2.Judge 32 main - 0、退出
+10:35:12.102 INFO  com.jimmy.hsp.class2.Judge 38 main - 请输入裁判人数:
+
+10:35:13.322 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 0号裁判给出评分是：91.46
+10:35:13.371 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 1号裁判给出评分是：72.64
+10:35:13.398 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 2号裁判给出评分是：23.62
+10:35:13.461 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 3号裁判给出评分是：43.2
+10:35:13.481 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 4号裁判给出评分是：40.07
+10:35:13.532 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 5号裁判给出评分是：83.1
+10:35:13.571 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 6号裁判给出评分是：22.89
+10:35:13.597 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 7号裁判给出评分是：80.44
+10:35:13.620 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 8号裁判给出评分是：60.39
+10:35:13.660 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 9号裁判给出评分是：9.65
+10:35:13.682 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 10号裁判给出评分是：54.37
+10:35:13.723 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 11号裁判给出评分是：13.81
+10:35:13.741 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 12号裁判给出评分是：50.02
+10:35:13.798 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 13号裁判给出评分是：17.21
+10:35:13.819 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 14号裁判给出评分是：15.2
+10:35:13.850 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 15号裁判给出评分是：40.07
+10:35:13.886 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 16号裁判给出评分是：70.49
+10:35:13.926 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 17号裁判给出评分是：16.53
+10:35:13.975 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 18号裁判给出评分是：78.75
+10:35:13.993 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 19号裁判给出评分是：41.51
+10:35:14.015 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 20号裁判给出评分是：41.97
+10:35:14.087 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 21号裁判给出评分是：20.57
+10:35:14.111 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 22号裁判给出评分是：73.8
+10:35:14.222 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 23号裁判给出评分是：25.79
+10:35:14.292 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 24号裁判给出评分是：99.41
+10:35:14.380 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 25号裁判给出评分是：80.07
+10:35:14.399 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 26号裁判给出评分是：40.61
+10:35:14.507 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 27号裁判给出评分是：62.6
+10:35:14.529 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 28号裁判给出评分是：27.43
+10:35:14.549 INFO  com.jimmy.hsp.class2.Judge 80 getReferee - 29号裁判给出评分是：50.59
+10:35:14.577 DEBUG com.jimmy.hsp.class2.Judge 48 main - FINAL SCORE IS :47.83
+10:35:14.619 INFO  com.jimmy.hsp.class2.Judge 28 main - 跳水评分系统
+10:35:14.638 INFO  com.jimmy.hsp.class2.Judge 29 main - 1、裁判打分
+10:35:14.671 INFO  com.jimmy.hsp.class2.Judge 30 main - 2、查看得分
+10:35:14.701 INFO  com.jimmy.hsp.class2.Judge 31 main - 3、查看最高分与最低分
+10:35:14.778 INFO  com.jimmy.hsp.class2.Judge 32 main - 0、退出
