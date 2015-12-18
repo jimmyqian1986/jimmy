@@ -15,7 +15,7 @@ import org.apache.logging.log4j.Logger;
  */
 public class Runable implements Runnable {
 	Logger logger = new Log4j().getLogger(Runable.class.getName());
-	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:SSS sss");
+	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss SSS");
 
 	/*
 	 * (non-Javadoc)

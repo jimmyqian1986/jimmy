@@ -22,8 +22,13 @@ public class Demo1 {
 		// TODO Auto-generated method stub
 		Logger logger = new Log4j().getLogger(Runable.class.getName());
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss SSS");
-
 		logger.info("" + sdf.format(System.currentTimeMillis()));
+
+		Runable rab = new Runable();
+		Thread t = new Thread(rab);
+		Thread t1 = new Thread(rab);
+		t.run();
+		t1.run();
 
 	}
 
