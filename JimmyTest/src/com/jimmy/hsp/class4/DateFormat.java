@@ -25,4 +25,12 @@ public class DateFormat {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy MM dd");
 		return sdf;
 	}
+
+	public void thread3(Runable rab) {
+		// Runable rab = new Runable();
+
+		Thread t = new Thread(rab);
+		rab.setThreadName(t.getName());
+		t.run();
+	}
 }
