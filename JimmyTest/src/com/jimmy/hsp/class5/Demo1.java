@@ -31,13 +31,13 @@ public class Demo1 {
 		Demo1 dm1 = new Demo1();
 		String url = "Demo1.class";
 		String path = "";
-		path = dm1.getPath(url) + "/test";
+		path = dm1.getPath(url) + "/test/";
 		System.out.println(path);
 		File file = new File(path);
 		// dm1.deleteFile(file);
 		dm1.DeleteFolder(path);
 		dm1.createPath(file);
-		dm1.createFile(new File(path + "/test.t"));
+		dm1.createFile(new File(path + "test.t"));
 		dm1.listPath(file);
 	}
 

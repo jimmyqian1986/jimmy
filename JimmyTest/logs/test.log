@@ -1,14 +1,4 @@
-17:24:28.843 INFO  com.jimmy.hsp.class5.Demo1 124 getPath - Demo1.class
-17:24:28.903 INFO  com.jimmy.hsp.class5.Demo1 125 getPath - file:/D:/Git/Git_data/GitHub/JimmyTest/bin/
-17:24:28.926 INFO  com.jimmy.hsp.class5.Demo1 127 getPath - file:/D:/Git/Git_data/GitHub/JimmyTest/bin/
-17:24:28.951 INFO  com.jimmy.hsp.class5.Demo1 128 getPath - file:/D:/Git/Git_data/GitHub/JimmyTest/bin/
-17:24:29.013 INFO  com.jimmy.hsp.class5.Demo1 129 getPath - file:/D:/Git/Git_data/GitHub/JimmyTest/bin/
-17:24:29.086 INFO  com.jimmy.hsp.class5.Demo1 130 getPath - file:/D:/Git/Git_data/GitHub/JimmyTest/bin/com/jimmy/hsp/class5/
-17:24:29.123 INFO  com.jimmy.hsp.class5.Demo1 131 getPath - D:\Git\Git_data\GitHub\JimmyTest
-17:24:29.150 INFO  com.jimmy.hsp.class5.Demo1 132 getPath - D:\Git\Git_data\GitHub\JimmyTest\bin;D:\Git\Git_data\GitHub\JimmyTest\lib\mysql-connector-java-5.1.34-bin.jar;D:\Git\Git_data\GitHub\JimmyTest\lib\ojdbc6.jar;D:\Git\Git_data\GitHub\JimmyTest\lib\log4j-core-2.3.jar;D:\Git\Git_data\GitHub\JimmyTest\lib\log4j-api-2.3.jar;D:\Git\Git_data\GitHub\JimmyTest\lib\commons-dbcp-1.4-javadoc.jar;D:\Git\Git_data\GitHub\JimmyTest\lib\commons-dbcp-1.4-sources.jar;D:\Git\Git_data\GitHub\JimmyTest\lib\commons-dbcp-1.4.jar;D:\Git\Git_data\GitHub\JimmyTest\lib\commons-pool-1.6-javadoc.jar;D:\Git\Git_data\GitHub\JimmyTest\lib\commons-pool-1.6-sources.jar;D:\Git\Git_data\GitHub\JimmyTest\lib\commons-pool-1.6.jar;D:\Git\Git_data\GitHub\JimmyTest\lib\dom4j-1.6.1\dom4j-1.6.1.jar;D:\Git\Git_data\GitHub\JimmyTest\lib\commons-logging-1.2-javadoc.jar;D:\Git\Git_data\GitHub\JimmyTest\lib\commons-logging-1.2.jar
-17:24:29.172 INFO  com.jimmy.hsp.class5.Demo1 134 getPath - D:\Git\Git_data\GitHub\JimmyTest
-17:24:29.201 INFO  com.jimmy.hsp.class5.Demo1 159 DeleteFolder - D:\Git\Git_data\GitHub\JimmyTest/test :Delete ing
-17:24:29.227 INFO  com.jimmy.hsp.class5.Demo1 177 deleteFile - D:\Git\Git_data\GitHub\JimmyTest\test\test.t :Delete ing
-17:24:29.260 INFO  com.jimmy.hsp.class5.Demo1 97 createFile - 文件路径D:\Git\Git_data\GitHub\JimmyTest\test\test.t
-17:24:29.282 INFO  com.jimmy.hsp.class5.Demo1 99 createFile - 文件的大小0
-17:24:29.330 INFO  com.jimmy.hsp.class5.Demo1 75 listPath - 显示出文件名是test.t
+10:20:46.120 INFO  com.jimmy.hsp.class5.Io02 88 fileOutputStream - 文件已存在
+10:20:46.196 INFO  com.jimmy.hsp.class5.Io02 61 fileInputStream - hello,world!
+中国人hello,world!
+中国人
