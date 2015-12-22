@@ -14,6 +14,9 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
+import org.apache.hadoop.mapred.JobConf;
+
+import com.model.HdfsDAO;
 
 /**
  * Servlet implementation class UploadServlet
@@ -91,9 +94,19 @@ public class UploadServlet extends HttpServlet {
 						fi.write(file);
 						System.out
 								.println("upload file to tomcat server success!");
-						//
-						// request.getRequestDispatcher(PageContext.forward(
-						// request, response));
+
+						System.out
+								.println("begin to upload file to hadoop hdfs</p>");
+						// 将tomcat上的文件上传到hadoop上
+
+						JobConf conf = HdfsDAO.config();
+						HdfsDAO hdfs = new HdfsDAO(conf);
+						hdfs.copyFile(filePath + "\\" + fn, "/wgc/" + fn);
+						System.out
+								.println("upload file to hadoop hdfs success!");
+
+						request.getRequestDispatcher("index.jsp").forward(
+								request, response);
 
 					}
 				}
