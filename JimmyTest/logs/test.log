@@ -1,4 +1,12 @@
-10:20:46.120 INFO  com.jimmy.hsp.class5.Io02 88 fileOutputStream - 文件已存在
-10:20:46.196 INFO  com.jimmy.hsp.class5.Io02 61 fileInputStream - hello,world!
-中国人hello,world!
-中国人
+16:24:29.462 ERROR com.jimmy.hsp.class6.Sql_test 56 stmt - drop table error
+16:24:30.267 ERROR com.jimmy.hsp.class6.Sql_test 61 stmt - create table error
+16:24:30.709 INFO  com.jimmy.hsp.class6.Sql_test 73 stmt - 数据添加成功
+16:24:31.405 INFO  com.jimmy.hsp.class6.Sql_test 83 stmt - 删除失败
+16:24:31.815 INFO  com.jimmy.hsp.class6.Sql_test 92 stmt - 修改失败
+16:24:31.938 INFO  com.jimmy.hsp.class6.Sql_test 103 stmt - 60:保安部:西永
+16:24:32.127 INFO  com.jimmy.hsp.class6.Sql_test 162 PreparedStmt - 添加成功
+16:24:32.252 INFO  com.jimmy.hsp.class6.Sql_test 173 PreparedStmt - 修改成功
+16:24:32.304 INFO  com.jimmy.hsp.class6.Sql_test 183 PreparedStmt - 删除成功
+16:24:32.565 INFO  com.jimmy.hsp.class6.Sql_test 162 PreparedStmt - 添加成功
+16:24:32.740 INFO  com.jimmy.hsp.class6.Sql_test 173 PreparedStmt - 修改成功
+16:24:33.406 INFO  com.jimmy.hsp.class6.Sql_test 183 PreparedStmt - 删除成功

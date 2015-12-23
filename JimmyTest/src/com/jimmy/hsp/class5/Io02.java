@@ -29,17 +29,18 @@ public class Io02 {
 	public static void main(String[] args) {
 		// 得到一个文件对象，f指向e:\ff\hsp.txt文件
 		String file = System.getProperty("user.dir") + "/logs/2.txt";
-		File f = new File(file);
-		Io02 io02 = new Io02();
-		io02.deletLastLine(new File(System.getProperty("user.dir")
-				+ "/logs/app1.log"), 100);
-		try {
-			io02.fileOutputStream(f);
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
-
-		io02.fileInputStream(f);
+		System.out.println(file);
+		// File f = new File(file);
+		// Io02 io02 = new Io02();
+		// io02.deletLastLine(new File(System.getProperty("user.dir")
+		// + "/logs/app1.log"), 100);
+		// try {
+		// io02.fileOutputStream(f);
+		// } catch (FileNotFoundException e) {
+		// e.printStackTrace();
+		// }
+		//
+		// io02.fileInputStream(f);
 
 	}
 

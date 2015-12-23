@@ -2,3 +2,30 @@
 2015.12.22 at 10:20:46 CST INFO  com.jimmy.hsp.class5.Io02 61 fileInputStream - hello,world!
 中国人hello,world!
 中国人
+2015.12.23 at 15:33:01 CST ERROR com.jimmy.hsp.class6.Sql_test 55 main - drop or create table Exception
+2015.12.23 at 15:33:47 CST ERROR com.jimmy.hsp.class6.Sql_test 47 main - drop table error
+2015.12.23 at 15:33:48 CST ERROR com.jimmy.hsp.class6.Sql_test 52 main - create table error
+2015.12.23 at 15:34:18 CST ERROR com.jimmy.hsp.class6.Sql_test 47 main - drop table error
+2015.12.23 at 15:34:18 CST ERROR com.jimmy.hsp.class6.Sql_test 52 main - create table error
+2015.12.23 at 15:34:18 CST INFO  com.jimmy.hsp.class6.Sql_test 64 main - 数据添加成功
+2015.12.23 at 15:34:19 CST INFO  com.jimmy.hsp.class6.Sql_test 74 main - 删除失败
+2015.12.23 at 15:34:19 CST INFO  com.jimmy.hsp.class6.Sql_test 83 main - 修改失败
+2015.12.23 at 15:34:19 CST INFO  com.jimmy.hsp.class6.Sql_test 94 main - 60	保安部	西永
+2015.12.23 at 15:34:55 CST ERROR com.jimmy.hsp.class6.Sql_test 47 main - drop table error
+2015.12.23 at 15:34:55 CST ERROR com.jimmy.hsp.class6.Sql_test 52 main - create table error
+2015.12.23 at 15:34:55 CST INFO  com.jimmy.hsp.class6.Sql_test 64 main - 数据添加成功
+2015.12.23 at 15:34:55 CST INFO  com.jimmy.hsp.class6.Sql_test 74 main - 删除失败
+2015.12.23 at 15:34:55 CST INFO  com.jimmy.hsp.class6.Sql_test 83 main - 修改失败
+2015.12.23 at 15:34:55 CST INFO  com.jimmy.hsp.class6.Sql_test 94 main - 60:保安部:西永
+2015.12.23 at 16:24:29 CST ERROR com.jimmy.hsp.class6.Sql_test 56 stmt - drop table error
+2015.12.23 at 16:24:30 CST ERROR com.jimmy.hsp.class6.Sql_test 61 stmt - create table error
+2015.12.23 at 16:24:30 CST INFO  com.jimmy.hsp.class6.Sql_test 73 stmt - 数据添加成功
+2015.12.23 at 16:24:31 CST INFO  com.jimmy.hsp.class6.Sql_test 83 stmt - 删除失败
+2015.12.23 at 16:24:31 CST INFO  com.jimmy.hsp.class6.Sql_test 92 stmt - 修改失败
+2015.12.23 at 16:24:31 CST INFO  com.jimmy.hsp.class6.Sql_test 103 stmt - 60:保安部:西永
+2015.12.23 at 16:24:32 CST INFO  com.jimmy.hsp.class6.Sql_test 162 PreparedStmt - 添加成功
+2015.12.23 at 16:24:32 CST INFO  com.jimmy.hsp.class6.Sql_test 173 PreparedStmt - 修改成功
+2015.12.23 at 16:24:32 CST INFO  com.jimmy.hsp.class6.Sql_test 183 PreparedStmt - 删除成功
+2015.12.23 at 16:24:32 CST INFO  com.jimmy.hsp.class6.Sql_test 162 PreparedStmt - 添加成功
+2015.12.23 at 16:24:32 CST INFO  com.jimmy.hsp.class6.Sql_test 173 PreparedStmt - 修改成功
+2015.12.23 at 16:24:33 CST INFO  com.jimmy.hsp.class6.Sql_test 183 PreparedStmt - 删除成功
