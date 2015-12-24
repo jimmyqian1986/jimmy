@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class DbUtil {
 
 	private String dbUrl = "jdbc:mysql://192.168.1.20:3306/test";
-	private String dbUserName = "test";
+	private String dbUserName = "root";
 	private String dbPassword = "111111";
 	private String jdbcName = "com.mysql.jdbc.Driver";
 

@@ -7,6 +7,7 @@
 package com.java1234.view;
 
 import java.awt.Font;
+import java.sql.Connection;
 
 import javax.swing.JOptionPane;
 import javax.swing.UIManager;
@@ -200,17 +201,26 @@ public class LogOnFrm extends javax.swing.JFrame {
 			return;
 		}
 		User user = new User(userName, password);
+		Connection con = null;
 		try {
-			User currentUser = userDao.login(dbUtil.getCon(), user);
+			con = dbUtil.getCon();
+			User currentUser = userDao.login(con, user);
 			if (currentUser != null) {
-				JOptionPane.showMessageDialog(null, "µÇÂ¼³É¹¦");
+				this.dispose();
+				new MainFrm().setVisible(true);
 			} else {
-				JOptionPane.showMessageDialog(null, "µÇÂ¼Ê§°Ü");
+				JOptionPane.showMessageDialog(null, "ÓÃ»§Ãû»òÃÜÂë´íÎó");
 			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			JOptionPane.showMessageDialog(null, "µÇÂ¼Ê§°Ü");
+		} finally {
+			try {
+				dbUtil.closeCon(con);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
 		}
 
 	}
