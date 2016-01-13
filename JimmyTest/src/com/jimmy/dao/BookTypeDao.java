@@ -1,12 +1,12 @@
-package com.java1234.dao;
+package com.jimmy.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import com.java1234.model.BookType;
-import com.java1234.util.StringUtil;
+import com.jimmy.model.BookType;
+import com.jimmy.util.StringUtil;
 
 public class BookTypeDao {
 

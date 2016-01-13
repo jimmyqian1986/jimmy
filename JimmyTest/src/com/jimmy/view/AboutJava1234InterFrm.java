@@ -4,7 +4,7 @@
  * Created on __DATE__, __TIME__
  */
 
-package com.java1234.view;
+package com.jimmy.view;
 
 /**
  *

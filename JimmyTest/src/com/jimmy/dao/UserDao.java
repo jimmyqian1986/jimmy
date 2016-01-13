@@ -1,10 +1,10 @@
-package com.java1234.dao;
+package com.jimmy.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-import com.java1234.model.User;
+import com.jimmy.model.User;
 
 
 public class UserDao {

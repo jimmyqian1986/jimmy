@@ -4,7 +4,7 @@
  * Created on __DATE__, __TIME__
  */
 
-package com.java1234.view;
+package com.jimmy.view;
 
 import java.awt.Font;
 import java.sql.Connection;
@@ -12,10 +12,10 @@ import java.sql.Connection;
 import javax.swing.JOptionPane;
 import javax.swing.UIManager;
 
-import com.java1234.dao.UserDao;
-import com.java1234.model.User;
-import com.java1234.util.DbUtil;
-import com.java1234.util.StringUtil;
+import com.jimmy.dao.UserDao;
+import com.jimmy.model.User;
+import com.jimmy.util.DbUtil;
+import com.jimmy.util.StringUtil;
 
 /**
  *

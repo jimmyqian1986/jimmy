@@ -15,5 +15,8 @@
 	<classpathentry kind="lib" path="lib/commons-logging-1.2-javadoc.jar"/>
 	<classpathentry kind="lib" path="lib/commons-logging-1.2.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/com.genuitec.embedded.tomcat.runtime.v70"/>
+	<classpathentry kind="lib" path="/ofbiz-release13.07/framework/base/lib/commons/commons-codec-1.10.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

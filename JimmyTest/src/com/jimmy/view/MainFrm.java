@@ -4,7 +4,7 @@
  * Created on __DATE__, __TIME__
  */
 
-package com.java1234.view;
+package com.jimmy.view;
 
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
@@ -189,13 +189,13 @@ public class MainFrm extends javax.swing.JFrame {
 	 * @param args
 	 *            the command line arguments
 	 */
-	public static void main(String args[]) {
-		java.awt.EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				new MainFrm().setVisible(true);
-			}
-		});
-	}
+	// public static void main(String args[]) {
+	// java.awt.EventQueue.invokeLater(new Runnable() {
+	// public void run() {
+	// new MainFrm().setVisible(true);
+	// }
+	// });
+	// }
 
 	// GEN-BEGIN:variables
 	// Variables declaration - do not modify

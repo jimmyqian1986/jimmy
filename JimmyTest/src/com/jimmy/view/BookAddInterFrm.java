@@ -4,19 +4,19 @@
  * Created on __DATE__, __TIME__
  */
 
-package com.java1234.view;
+package com.jimmy.view;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
 
 import javax.swing.JOptionPane;
 
-import com.java1234.dao.BookDao;
-import com.java1234.dao.BookTypeDao;
-import com.java1234.model.Book;
-import com.java1234.model.BookType;
-import com.java1234.util.DbUtil;
-import com.java1234.util.StringUtil;
+import com.jimmy.dao.BookDao;
+import com.jimmy.dao.BookTypeDao;
+import com.jimmy.model.Book;
+import com.jimmy.model.BookType;
+import com.jimmy.util.DbUtil;
+import com.jimmy.util.StringUtil;
 
 /**
  *
